@@ -1,6 +1,7 @@
 package com.fgdc.catdogapp.ui
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -31,6 +32,11 @@ class MainActivity : AppCompatActivity() {
             binding.toolbar.title = when (destination.id) {
                 R.id.dogBreedsList -> destination.label
                 else -> ""
+            }
+
+            binding.toolbar.visibility = when (destination.id) {
+                R.id.dogBreedsList -> View.VISIBLE
+                else -> View.GONE
             }
         }
         binding.toolbar.setNavigationOnClickListener { onBackPressed() }
