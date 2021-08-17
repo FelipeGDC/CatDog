@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CatDog App</string>
+
+    <!-- Lottie files-->
+    <string name="lottie_loader">loader-dog-walking.json</string>
+
+    <!-- Error messages -->
+    <string name="bad_request">Bad request</string>
+    <string name="error_connection">Error connection</string>
+    <string name="error_title">Error</string>
+    <string name="common_error">An error has occurred\nPlease try again</string>
+    <string name="try_again">Try again</string>
+
+    <!-- Dialogs -->
+    <string name="accept_btn">Accept</string>
+
+    <!-- List dog breeds -->
+    <string name="dog_id">#%1s</string>
+
+    <!-- Dog breed detail -->
+    <string name="breed_image">Breed Image</string>
+    <string name="breed_details">More Information</string>
+    <string name="breed_name">Breed</string>
+    <string name="bred_for">Bred for</string>
+    <string name="breed_group">Breed Group</string>
+    <string name="life_span">Life Span</string>
+    <string name="temperament">Temperament</string>
+    <string name="origin">Origin</string>
+
+    <!-- Menu -->
+    <string name="filter_button">Filter breeds</string>
+
+</resources>
+

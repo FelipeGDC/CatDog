@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/dogBreedsList">
+
+    <fragment
+        android:id="@+id/dogBreedsList"
+        android:name="com.fgdc.catdogapp.ui.dogBreedsList.DogBreedsListFragment"
+        android:label="Breeds"
+        tools:layout="@layout/fragment_dog_breeds_list">
+
+        <action
+            android:id="@+id/action_list_to_breed_detail"
+            app:destination="@id/dogBreedDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dogBreedDetail"
+        android:name="com.fgdc.catdogapp.ui.dogBreedDetail.DogBreedDetailFragment"
+        android:label="Breed Details"
+        tools:layout="@layout/fragment_dog_breed_detail">
+        <argument
+            android:name="breed_id"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+    </fragment>
+</navigation>
