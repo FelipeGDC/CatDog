@@ -60,8 +60,7 @@ The app currently consists of 2 screens:
 
 ## Screenshots 📸
 
-<img src="/images/screenshots/breeds_list.png" width="200">
-<img src="/images/screenshots/breed_detail.png" width="200">
+<img src="/images/screenshots/breeds_list.png" width="200"> <img src="/images/screenshots/breed_detail.png" width="200">
 
 ## MAD ScoreCard 👾
 
